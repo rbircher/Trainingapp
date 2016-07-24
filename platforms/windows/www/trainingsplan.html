@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+<!--
+Copyright 2015 by the openSTP Community (See CREDITS.TXT)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+	<head>
+		<title>openSTP</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/index.css">
+		<script>
+			function testManipulate()
+			{
+			document.getElementById("licence").innerHTML = "AddText";
+			}
+		</script>
+	</head>
+	<body>
+		<nav>
+		<!-- This part is the navigation of the OpenSTP -->
+			<ul>
+				<li class="nav">Training editor</li>
+				<li class="nav">Exercise editor</li>
+				<li class="nav">Online resources</li>
+				<li class="nav">Settings</li>
+				<li class="nav">About</li>
+			</ul>
+		<!-- End of the navigation part -->
+		</nav>
+		<!-- Start of the dynamic part -->
+		
+		<!-- Start of the header for the trainingsplan -->
+		<header>
+			<strong>Date: </strong>16.3.2016<br />
+			<strong>Location:</strong> Example, City<br />
+			<strong>Topic:</strong> Athletics, Sprint<br />
+			<strong>Begin:</strong> <time>19:00</time><br />
+			<strong>End: </strong> <time>21:00</time><br />
+			<strong>Coaches: </strong>Coach 1, Coach 2<br />
+		</header>
+		<!-- End of the header from the trainingsplan -->
+
+		<!-- Begin of Exercise -->
+		<button onclick="testManipulate()">Click me</button>
+		<h3>Exercise 1</h3>
+		<div id="exercise">
+			<div id="ex_line1">
+				<div id="duration">
+					<div class="descr_title">
+						Duration
+					</div>
+					duration
+				</div>
+				<div id="duration">
+					<div class="descr_title">
+						Repetition
+					</div>
+					repetition
+				</div>
+				<div id="duration">
+					<div id="licence" class="descr_title">
+						License
+					</div>
+					Lisence
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+			<div id="ex_line1">
+				<div id="description">
+					<div class="descr_title">
+						Description
+					</div>
+					Dummy Text, Dummy text and more dummy text. Dummy Text, Dummy text and more dummy text. Dummy Text, Dummy text and more dummy text. Dummy Text, Dummy text and more dummy text. Dummy Text, Dummy text and more dummy text. Dummy Text, Dummy text and more dummy text.
+				</div>
+				<div id="picture">
+					<div class="descr_title">
+						Picture
+					</div>
+					Picture<br />
+					...
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+		
+		<!-- End of Exercise -->
+		
+	<h3>Exercise 2</h3>
+		<div id="exercise">
+			<div id="ex_line1">
+				<div id="duration">
+					<div class="descr_title">
+						Duration
+					</div>
+					duration
+				</div>
+				<div id="duration">
+					<div class="descr_title">
+						Repetition
+					</div>
+					repetition
+				</div>
+				<div id="duration">
+					<div class="descr_title">
+						License
+					</div>
+					Lisence
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+			<div id="ex_line1">
+				<div id="description">
+					<div class="descr_title">
+						Description
+					</div>
+					Dummy Text, Dummy text and more dummy text. Dummy Text, Dummy text and more dummy text. Dummy Text, Dummy text and more dummy text. Dummy Text, Dummy text and more dummy text. Dummy Text, Dummy text and more dummy text. Dummy Text, Dummy text and more dummy text. 
+				</div>
+				<div id="picture">
+					<div class="descr_title">
+						Picture
+					</div>
+					Picture
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+		</div> 
+	
+		<footer>
+			<hr />
+			<strong>OpenSTP</strong> &copy; 2016 by the OpenSTP Team and Raphael Bircher, Licensed under Apache License 2.0
+		</footer>
+		
+	</body>
+</html>
